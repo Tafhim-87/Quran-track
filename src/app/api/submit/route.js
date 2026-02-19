@@ -3,7 +3,7 @@ import connectDB from "@/lib/db";
 import User from "@/models/User";
 import Reading from "@/models/Reading";
 
-const RAMADAN_START = new Date(process.env.RAMADAN_START);
+const RAMADAN_START = new Date(process.env.NEXT_PUBLIC_RAMADAN_START);
 
 export async function POST(req) {
   try {
